@@ -1,0 +1,190 @@
+{
+  "params": {
+    "kappa_C": 0.4,
+    "lam": 0.35,
+    "kappa_I": 0.7098912915026767,
+    "n_runs": 200,
+    "world": {
+      "n_agents": 4,
+      "k": 4,
+      "m": 8,
+      "persistence": 0.7,
+      "T": 400
+    }
+  },
+  "construction": {
+    "kappa_C": 0.4,
+    "lam": 0.35,
+    "kappa_I": 0.7098912915026767,
+    "tv_analytic": 3.469446951953614e-17,
+    "diag_I": 0.13299999999999998,
+    "diag_C": 0.133,
+    "tv_empirical": 0.004245000000000016,
+    "pass": true
+  },
+  "phi_sweep": {
+    "0.0": {
+      "D1 Cramer's V": {
+        "auroc": 0.20085,
+        "lo": 0.158899375,
+        "hi": 0.24350812499999994
+      },
+      "D2 marginal MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D3 conditional MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D4 net influence": {
+        "auroc": 0.056175,
+        "lo": 0.036071875,
+        "hi": 0.07795187499999999
+      }
+    },
+    "0.25": {
+      "D1 Cramer's V": {
+        "auroc": 0.20085,
+        "lo": 0.158899375,
+        "hi": 0.24350812499999994
+      },
+      "D2 marginal MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D3 conditional MI": {
+        "auroc": 0.890725,
+        "lo": 0.858998125,
+        "hi": 0.9200349999999999
+      },
+      "D4 net influence": {
+        "auroc": 0.264075,
+        "lo": 0.214344375,
+        "hi": 0.31525187499999996
+      }
+    },
+    "0.5": {
+      "D1 Cramer's V": {
+        "auroc": 0.20085,
+        "lo": 0.158899375,
+        "hi": 0.24350812499999994
+      },
+      "D2 marginal MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D3 conditional MI": {
+        "auroc": 0.9917,
+        "lo": 0.985075,
+        "hi": 0.9967756249999999
+      },
+      "D4 net influence": {
+        "auroc": 0.42165,
+        "lo": 0.362863125,
+        "hi": 0.47431124999999996
+      }
+    },
+    "0.75": {
+      "D1 Cramer's V": {
+        "auroc": 0.20085,
+        "lo": 0.158899375,
+        "hi": 0.24350812499999994
+      },
+      "D2 marginal MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D3 conditional MI": {
+        "auroc": 0.999925,
+        "lo": 0.9997,
+        "hi": 1.0
+      },
+      "D4 net influence": {
+        "auroc": 0.49545,
+        "lo": 0.437354375,
+        "hi": 0.5514549999999999
+      }
+    },
+    "1.0": {
+      "D1 Cramer's V": {
+        "auroc": 0.20085,
+        "lo": 0.158899375,
+        "hi": 0.24350812499999994
+      },
+      "D2 marginal MI": {
+        "auroc": 0.1946,
+        "lo": 0.15239687500000001,
+        "hi": 0.23667749999999999
+      },
+      "D3 conditional MI": {
+        "auroc": 1.0,
+        "lo": 1.0,
+        "hi": 1.0
+      },
+      "D4 net influence": {
+        "auroc": 0.6485,
+        "lo": 0.59689375,
+        "hi": 0.6996768750000001
+      }
+    }
+  },
+  "positive_control_pass": false,
+  "monoculture_curve": {
+    "thresholds": {
+      "D1 Cramer's V": 0.13616541216907418,
+      "D2 marginal MI": 0.02818820332470954,
+      "D3 conditional MI": 0.02818820332470954,
+      "D4 net influence": 0.01780850005256667
+    },
+    "rates": {
+      "0.25": {
+        "D1 Cramer's V": 0.035,
+        "D2 marginal MI": 0.035,
+        "D3 conditional MI": 0.035,
+        "D4 net influence": 0.025
+      },
+      "0.35": {
+        "D1 Cramer's V": 0.035,
+        "D2 marginal MI": 0.035,
+        "D3 conditional MI": 0.035,
+        "D4 net influence": 0.095
+      },
+      "0.45": {
+        "D1 Cramer's V": 0.525,
+        "D2 marginal MI": 0.49,
+        "D3 conditional MI": 0.49,
+        "D4 net influence": 0.195
+      },
+      "0.55": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.46
+      },
+      "0.65": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.715
+      },
+      "0.75": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.825
+      },
+      "0.85": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.885
+      }
+    }
+  }
+}

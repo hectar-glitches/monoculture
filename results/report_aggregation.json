@@ -1,0 +1,50 @@
+{
+  "kappa_C": 0.4,
+  "lam": 0.35,
+  "kappa_I": 0.7098912915026767,
+  "n_agents": 6,
+  "n_runs": 200,
+  "phi": 0.0,
+  "results": {
+    "A1 Peak (max over agents)": {
+      "auroc": 0.09685,
+      "lo": 0.070575,
+      "hi": 0.12680812499999994,
+      "reads": "level",
+      "verdict": "INVERTED",
+      "predicted": "INVERTED"
+    },
+    "A2 Alignment (mean pairwise)": {
+      "auroc": 0.0,
+      "lo": 0.0,
+      "hi": 0.0,
+      "reads": "level",
+      "verdict": "INVERTED",
+      "predicted": "INVERTED"
+    },
+    "A3 Split (top-k vs rest)": {
+      "auroc": 1.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "reads": "pattern",
+      "verdict": "works",
+      "predicted": "works"
+    },
+    "A4 GLRT / independence null": {
+      "auroc": 0.09685,
+      "lo": 0.070575,
+      "hi": 0.12680812499999994,
+      "reads": "level",
+      "verdict": "INVERTED",
+      "predicted": "INVERTED"
+    },
+    "A5 GLRT / homogeneous null": {
+      "auroc": 0.999775,
+      "lo": 0.99925,
+      "hi": 1.0,
+      "reads": "pattern",
+      "verdict": "works",
+      "predicted": "works"
+    }
+  }
+}

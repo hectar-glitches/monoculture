@@ -1,0 +1,99 @@
+{
+  "ns": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "kappa_low": 0.25,
+  "kappa_high": 0.79,
+  "n_runs": 300,
+  "results": {
+    "3": {
+      "thresholds": {
+        "D1 Cramer's V": 0.1272136131282537,
+        "D2 marginal MI": 0.025147344466240628,
+        "D3 conditional MI": 0.025147344466240628,
+        "D4 net influence": 0.01894654995571311
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.9
+      }
+    },
+    "4": {
+      "thresholds": {
+        "D1 Cramer's V": 0.13728963563631713,
+        "D2 marginal MI": 0.028695077054266622,
+        "D3 conditional MI": 0.028695077054266622,
+        "D4 net influence": 0.017978778227999207
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.9166666666666666
+      }
+    },
+    "5": {
+      "thresholds": {
+        "D1 Cramer's V": 0.14083394711192984,
+        "D2 marginal MI": 0.03023388666074946,
+        "D3 conditional MI": 0.03023388666074946,
+        "D4 net influence": 0.018084869883039895
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.89
+      }
+    },
+    "6": {
+      "thresholds": {
+        "D1 Cramer's V": 0.14250888216876906,
+        "D2 marginal MI": 0.03102607664570286,
+        "D3 conditional MI": 0.03102607664570286,
+        "D4 net influence": 0.018724525500578827
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.8666666666666667
+      }
+    },
+    "8": {
+      "thresholds": {
+        "D1 Cramer's V": 0.1460908767389478,
+        "D2 marginal MI": 0.03233737001957716,
+        "D3 conditional MI": 0.03233737001957716,
+        "D4 net influence": 0.018575874724401233
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.8933333333333333
+      }
+    },
+    "10": {
+      "thresholds": {
+        "D1 Cramer's V": 0.15170258530555603,
+        "D2 marginal MI": 0.0349995955208232,
+        "D3 conditional MI": 0.0349995955208232,
+        "D4 net influence": 0.019187224537141192
+      },
+      "false_accusation_rate": {
+        "D1 Cramer's V": 1.0,
+        "D2 marginal MI": 1.0,
+        "D3 conditional MI": 1.0,
+        "D4 net influence": 0.8866666666666667
+      }
+    }
+  }
+}

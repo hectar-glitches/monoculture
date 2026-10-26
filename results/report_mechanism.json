@@ -1,0 +1,19 @@
+{
+  "n_runs": 300,
+  "n_agents": 6,
+  "kappa_C": 0.4,
+  "lam": 0.35,
+  "kappa_I": 0.7098912915026767,
+  "top_pair": {
+    "pair_mechanism": 0.53,
+    "shared_prior": 0.5725
+  },
+  "other_pairs_median": {
+    "pair_mechanism": 0.275,
+    "shared_prior": 0.53
+  },
+  "contrast": {
+    "pair_mechanism": 0.25625,
+    "shared_prior": 0.03875000000000006
+  }
+}
